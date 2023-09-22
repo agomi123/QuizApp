@@ -12,9 +12,9 @@ const Footer = () => {
     <div className="footer">
       <h4 className="text-center">All Right Reserved &copy; Himanshu Gupta</h4>
       <p className="text-center mt-3">
-        <Link to="/about">About</Link>|
-        <Link to="/contact">Contact</Link>|
-        <Link to="/policy">Privacy Policy</Link>
+        <Link to="/QuizApp/about">About</Link>|
+        <Link to="/QuizApp/contact">Contact</Link>|
+        <Link to="/QuizApp/policy">Privacy Policy</Link>
       </p>
       <div style={mystyle}>
       <a href="https://www.instagram.com/gupta_3385" target="blank">

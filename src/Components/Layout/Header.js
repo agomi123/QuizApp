@@ -20,14 +20,14 @@ const Header = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <Link to="/" className="navbar-brand">
+            <Link to="/QuizApp" className="navbar-brand">
               Quiz Game- CausalFunnel
             </Link>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
              
               <li className="nav-item">
                 
-                  <NavLink to="/" target="blank" className="nav-link ">
+                  <NavLink to="/QuizApp" target="blank" className="nav-link ">
                   Home
                 </NavLink>
                   

@@ -77,7 +77,7 @@ const QuizPage = () => {
       setPercent(0);
       setPercent(percent+Math.floor(100 / 15));
       alert("Congratulation! Your Quiz has been Submitted. View Your Score");
-      navigate("/result");
+      navigate("/QuizApp/result");
     }
   };
 

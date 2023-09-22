@@ -18,8 +18,8 @@ const Instruction = () => {
         <li class="list-group-item">Score and Answer will be revealed after the completion of Quiz.</li>
         <li class="list-group-item">User cannot go back after submiting any answer</li>
       </ol>
-      <button  className='btn btn-primary' onClick={()=>navigate('/')}>Back</button>
-      <Link  className='btn btn-warning m-3' to='/quiz' onClick={startTimer}>Start</Link>
+      <button  className='btn btn-primary' onClick={()=>navigate('/QuizApp')}>Back</button>
+      <Link  className='btn btn-warning m-3' to='/QuizApp/quiz' onClick={startTimer}>Start</Link>
     
       </div>
       

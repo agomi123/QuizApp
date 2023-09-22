@@ -21,7 +21,7 @@ const StartPage = () => {
     }
     localStorage.setItem('email',email);
     localStorage.setItem('name',name);
-     navigate('/instruction')
+     navigate('/QuizApp/instruction')
   };
   return (
     <Layout>
