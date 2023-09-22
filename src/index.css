@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  font-family: 'Poppin',serif;
+  font-size: 17px;
+  line-height: 26px;
+  box-shadow: 0 8px 6px -6px gray;
+}
+.nav-link{
+  font-weight: 300 !important; 
+}
+
+.active{
+  border-bottom: 2px solid black;
+}
+.pnf{
+  display:flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-heading{
+  font-weight: normal;
+}
+.pnf-btn{
+  color: black;
+  border:1px solid black;
+  text-decoration: none;
+  padding:10px;
+  margin-top: 10px;
+}
+
+
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'robot',sans-serif;
+  letter-spacing: 3px;
+}
+
+.footer{
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: --webkit-linear-gradient(to right,#434343,#000000);
+  background: linear-gradient(to right,#434343,#000000);
+}
+.footer a{
+  text-decoration: none;
+  color:  white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: red;
+  border-bottom: 1px solid #ffefba;
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
